@@ -8,7 +8,7 @@ let package = Package(
     ],
     dependencies: [
         // JSON Web Tokens in Swift by @siemensikkema.
-        .package(url:"https://github.com/balazskiss/jwt.git", .upToNextMajor(from: "2.0.0")),
+        .package(url:"https://github.com/balazskiss/jwt-kit.git", .upToNextMajor(from: "2.0.0")),
 
         // Middleware and conveniences for using Auth in Vapor.
         .package(url:"https://github.com/vapor/auth-provider.git", .upToNextMajor(from: "1.0.0")),
